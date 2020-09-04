@@ -18,5 +18,5 @@ x = str(2**1000)
 xc = np.array([int(x) for x in a])
 v = np.sum(xc)
 
-print(v, 'сумма из NumPy')
+print(v, 'сумма')
 print('Time:', datetime.now() - start_time)
